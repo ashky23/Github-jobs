@@ -1,0 +1,53 @@
+body {
+  margin: 20px 40px;
+  background: linear-gradient(35deg, #ffcccc, #ccffff);
+}
+.App {
+  /* text-align: center; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+h1 {
+  /* border: 2px solid; */
+  text-align: center;
+}
+h2 {
+  /* border: 2px solid; */
+  text-align: center;
+}
+.jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.job {
+  /* border: 1px solid; */
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  text-align: left;
+  margin: 20px 0;
+  padding: 20px 20px;
+  align-items: center;
+  /* background: rgba(0, 0, 0, 0.1); */
+}
+
+.job:hover {
+  cursor: pointer;
+  color: darkgray;
+}
+
+.org-logo {
+  height: 30px;
+  float: right;
+}
+Button {
+  color: #ccffff;
+}
+.apply {
+  text-decoration: none;
+}
